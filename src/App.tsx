@@ -9,7 +9,7 @@ import { TodoList } from './components/TodoList/TodoList';
 import { Footer } from './components/Footer/Footer';
 // eslint-disable-next-line max-len
 import { ErrorNotification } from './components/ErrorNotification/ErrorNotification';
-import { ErrorMessage, FilterStatus } from './enums/enums';
+import { ErrorMessage, FilterStatus } from './components/enums/enums';
 import { TodoItem } from './components/TodoItem/TodoItem';
 
 const filterTodos = (todos: Todo[], status: FilterStatus) => {

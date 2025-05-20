@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { FormEvent, useEffect, useMemo, useState } from 'react';
 import { UserWarning } from './UserWarning';
 import { addTodo, getTodos, removeTodo, USER_ID } from './api/todos';

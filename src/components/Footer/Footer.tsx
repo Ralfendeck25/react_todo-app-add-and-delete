@@ -1,6 +1,5 @@
 import classNames from 'classnames';
-import { FilterStatus } from '../../enums/enums';
-
+import { FilterStatus } from '../../components/enums/enums';
 type Props = {
   todosCompleted: number;
   todosActive: number;
